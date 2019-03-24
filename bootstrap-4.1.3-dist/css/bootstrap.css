@@ -3875,15 +3875,22 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: #CFDADE;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #3C484C;
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  background-color: #899092;
+  color: #537079;
 }
 
 .nav-link.disabled {
@@ -3916,8 +3923,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
+  color: #899092;
+  background-color: #537079;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -3933,8 +3940,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff;
+  color: #3C484C;
+  background-color: #899092;
 }
 
 .nav-fill .nav-item {
@@ -4880,7 +4887,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: white;
+  background-color: #32CCFE;
   color: black;
   border-radius: 0.3rem;
   text-align: center;
@@ -9048,4 +9055,91 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 5px;
   text-decoration: underline;
 }
+
+
+.mainbg {
+  min-height: 100vh;
+  background-image: url(../../Images/circle.png);
+  background-size: cover;
+  align-items: center;
+  display: flex;
+}
+
+.mainbgtext {
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bgtexttxt {
+  letter-spacing: 10px;
+  color: black;
+  transform: translate(10px, 0);
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.bgtexttxt span {
+  text-decoration: underline;
+}
+
+.aboutbody {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #32CCFE !important;
+  font-family: 'consolas', 'courier new', 'calibri', sans-serif;
+}
+
+.sectiontitle {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.cropimage {
+  height: 30em;
+  width: 30em;
+  overflow: hidden;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-block;
+}
+
+.profileimage {
+  margin-left: -10%;
+}
+
+.aboutmedesc {
+  background-color: #FF4B2A;
+  height: 15em;
+}
+
+.aboutmemaindesc {
+  background-color: #FFFFFF;
+  text-align: left;
+}
+
+.aboutmemaindesc strong {
+  font-size: 25px;
+}
+
+.imgcaption {
+  font-size: 11px;
+  color: #3C484C;
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  background-color: #32CCFE;
+}
+
+.textbox {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
