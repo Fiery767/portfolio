@@ -4887,7 +4887,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #32CCFE;
+  background-color: #CFDADE;
   color: black;
   border-radius: 0.3rem;
   text-align: center;
@@ -9090,12 +9090,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  background-color: #32CCFE !important;
-  font-family: 'consolas', 'courier new', 'calibri', sans-serif;
+  font-family: 'courier new', 'calibri', sans-serif;
 }
 
 .sectiontitle {
-  background-color: #FFFFFF;
   margin: 0 auto;
 }
 
@@ -9142,4 +9140,7 @@ footer {
   padding: 10px;
 }
 
+.aboutbody2 {
+  background-color: #CFDADE;
+}
 /*# sourceMappingURL=bootstrap.css.map */
