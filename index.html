@@ -34,16 +34,68 @@
             </div>
         </header>
         
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="Images/DHSIrishGuard2018.jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">The Dublin High School Irish Guard</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="Images/VoyageToPlanet925.jpg" alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Voyage To Planet 925</h3>
+                <p>2018 Winter Percussion Show</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="Images/textadventure.PNG" alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Text Adventure Project</h3>
+                <p>Computer Science Principles</p>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+        
         <br>
         
         <!-- Body of the page, about me section -->
         <div class="container aboutbody">
-            <div class="aboutbody2">
+            <div>
                 <h2 class="col-3 align-self-center sectiontitle">ABOUT ME</h2>
                 <br>
                 <div class="row">
@@ -64,8 +116,8 @@
                     </div>
                     
                     <div class="col-md-6">
-                        <div class="cropimage">
-                            <img src="Images/AboutMeImage2.JPG" alt="picture of me" class="profileimage">
+                        <div>
+                            <img src="Images/AboutMeImage2.JPG" alt="picture of me" class="img-fluid">
                         </div>
                     </div>
                     
@@ -94,13 +146,13 @@
             <br>
             <div class="row">
                 <div class="col-md-3">
-                    <div style="transform: translate(0, 15em);">
+                    <div>
                         <img src="Images/poepreview.JPG" class="img-thumbnail img-fluid">
                         <p class="imgcaption">
                             Team picture from the Machine Control Project (Principles of Engineering)
                             </p>
                     </div>
-                    <div style="transform: translate(0, 37em);">
+                    <div>
                         <img src="Images/bassline.JPG" class="img-thumbnail img-fluid">
                         <p class="imgcaption">
                             The 2018 Fall Bassline
@@ -118,14 +170,10 @@
                         industry. Currently, I am exploring the computer science pathway through Project Lead the Way's Engineering and 
                         Design Academy. I am enrolled in the Academy and their Computer Science Principles course, and I plan to take 
                         Computer Science Applications next year. I have already taken Principles of Engineering, which has allowed me to 
-                        explore the other fields of engineering and broaden my knowledge. At the moment, I am self-studying through 
-                        <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/">Harvard's edX CS50 course</a>, which,
-                        in conjunction with my other regular school coursework, has taught time management and focus. Though my main 
-                        focus has been computer science, I am also interested in audio engineering, including production and design. I 
-                        am exploring the possibility of entering film and video production through audio design, and plan to take 
-                        courses at a community college over the summer next year in order to further explore this interest. Whether I 
-                        decide to enter games or film, my ultimate goal is to affect people with my work in the same positive ways that 
-                        games and film affected me.
+                        explore the other fields of engineering and broaden my knowledge. Though my main focus thus far has been 
+                        computer science, I've recently been exploring entering film/TV production. Like games, film and TV allows
+                        me to tell compelling and complex stories. Whether I decide to enter games or film, my ultimate goal is to 
+                        affect people with my work in the same positive ways that games and film affected me.
                         <br/>
                         <br/>
                         I am dedicated, dependable, and cooperative. Throughout high school, I have been a member 
@@ -153,110 +201,19 @@
                 </div>
                 
                 <div class="col-md-3">
-                    <div style="transform: translate(0, 5em);">
+                    <div>
                         <img src="Images/escaperoom.JPG" class="img-thumbnail img-fluid">
                         <p class="imgcaption">
                             Victory photo after a successful escape room.
-                            Escape rooms are one of my favourite more active, physical games to play
-                        </p>
-                    </div>
-                    
-                    <div style="transform: translate(0, 30em);">
-                        <img src="Images/VoyageToPlanet925.jpg" class="img-thumbnail img-fluid">
-                        <p class="imgcaption">
-                            The Dublin High School 2018 Winter Percussion Show: "Voyage To Planet 925"
+                            Escape rooms are one of my favourite more active, physical games to play.
                         </p>
                     </div>
                 </div>
                 
             </div>
-                
-                
-                
             </div>
         </div>
-        <!-- Main Body of the page, contains the 2x2 grid
-        <div class="container">
-            
-            <!-- creates the first row
-            <div class="container">
-                <div class="row flex-row">
-                
-                    <!-- creates the display for the mechanical winch project 
-                    <div class="col-md-6">
-                        <a href="Wang_MechanicalWinchProject.html">
-                            <div class="view overlay zoom">
-                                <img width="100%" src="Images/mechwinch.JPG" alt="Image of the Mechanical Winch project">
-                                <div class="mask flex-center imgoverlaytxt">
-                                    <h4>
-                                        MECHANICAL WINCH SYSTEM
-                                        <br/>
-                                        PRINCIPLES OF ENGINEERING
-                                    </h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <!-- creates the display for the scratch project 
-                    <div class="col-md-6">
-                        <a href="Wang_ScratchProject.html">
-                            <div class="view overlay zoom">
-                                <img width="100%" src="Images/scratch.png" alt="Image of the Scratch project">
-                                <div class="mask flex-center imgoverlaytxt">
-                                    <h4>
-                                        SCRATCH GAME
-                                        <br/>
-                                        COMPUTER SCIENCE PRINCIPLES
-                                    </h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <br/>
-            
-            <!-- creates the second row 
-            <div class="container">
-                <div class="row flex-row">
-                    
-                    <!-- creates the display for the app inventor project
-                    <div class="col-md-6">
-                        <a href="Wang_AppInventorProject.html">
-                            <div class="view overlay zoom">
-                                <img width="100%" src="Images/appinventor.jpg" alt="Image of the App Inventor project">
-                                <div class="mask flex-center imgoverlaytxt">
-                                    <h4>
-                                        APP INVENTOR GAME
-                                        <br/>
-                                        COMPUTER SCIENCE PRINCIPLES
-                                    </h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <!-- creates the display for the machine control project 
-                    <div class="col-md-6">
-                        <a href="Wang_MachineControlProject.html">
-                            <div class="view overlay zoom">
-                                <img width="100%" src="Images/machinecontrol.JPG" alt="Image of the Machine Control project">
-                                <div class="mask flex-center imgoverlaytxt">
-                                    <h4>
-                                        MACHINE CONTROL
-                                        <br/>
-                                        PRINCIPLES OF ENGINEERING
-                                    </h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
+        
         <br>
         <!-- Footer section, contains email and dhs logo -->
         <footer>

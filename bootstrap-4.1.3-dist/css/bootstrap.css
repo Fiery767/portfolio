@@ -9090,7 +9090,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: 'courier new', 'calibri', sans-serif;
+  font-family: 'Lucida Sans', 'calibri', sans-serif;
 }
 
 .sectiontitle {
@@ -9111,8 +9111,8 @@ body {
 }
 
 .aboutmedesc {
-  background-color: #FF4B2A;
-  height: 15em;
+  background-color: #CFDADE;
+  padding: 5px;
 }
 
 .aboutmemaindesc {
@@ -9132,15 +9132,11 @@ body {
 }
 
 footer {
-  background-color: #32CCFE;
-}
-
-.textbox {
-  background-color: #FFFFFF;
-  padding: 10px;
+  background-color: #CFDADE;
 }
 
 .aboutbody2 {
   background-color: #CFDADE;
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
